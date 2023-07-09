@@ -1,0 +1,157 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-family: sans-serif;
+}
+body{
+    background-color: #001;
+     display: flex;
+}
+
+ul{
+    list-style: none;
+    position: relative;
+    height: 95%;
+}
+.menu{
+width: 60px;
+height: 100vh;
+padding: 20px;
+background-color: #123;
+overflow: hidden;
+transition: .7s ;
+}
+.menu:hover{
+    width: 320px;
+
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    
+    margin: 13px 0;
+    display: flex;
+    gap: 70px;
+    padding: 14px;
+    border-radius: 10px;
+    transition: .5s ;
+}
+ul li a:hover,.data .box:hover,td:hover{
+background-color: #fffff555;
+}
+.profile{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.profile h2{
+ text-transform: capitalize;
+}
+.img-prof{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid white;
+    flex-shrink: 0;
+}
+.img-prof img{
+    width: 100%;
+
+}
+.log-out{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.log-out a,.log-out a:hover{
+    background-color: red;
+}
+ul li i{
+    font-size: 20px;
+}
+.content{
+    margin: 10px;
+    width: 100%;
+   
+}
+.content-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#0481ff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+.data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.data .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #123;
+    height: 150px;
+    flex-basis: 150px;
+    flex-grow: 1;
+    border-radius: 5px;
+    transition: .5s ;
+}
+.data .box  i{
+    font-size: 30px;
+      
+   }
+.data .box .box-content{
+    text-align: center;   
+       }
+.data .box .box-content span{
+        font-size: 20px;
+           }
+
+.table-tilte{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color:#0481ff;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+
+table{
+ width: 100%;
+ text-align: center;
+  border-spacing: 15px; 
+}
+th{
+    background-color:#0481ff ;
+    padding: 10px;
+    border-radius: 7px;
+}
+td{
+    background-color: #123;
+    padding: 10px;
+    border-radius: 7px;
+    transition: .5s ;
+
+}
+.price , .count{
+  padding: 6px;
+   
+  border-radius: 6px;
+}
+.price{
+    background-color: #008000;
+  
+  }
+.count{
+    background-color: #ffd700;
+    color: black;
+  
+  }
